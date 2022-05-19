@@ -3,9 +3,13 @@
 
 sudo pacman -S nodejs
   --//--       Yarn
+  
   --//--       Clang
-  --//--     python-pip
+  
+  --//--       python-pip
+  
 pip install pynvim
+
 
 # nvim
 Neovim Configuration for c++
