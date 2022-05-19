@@ -1,8 +1,10 @@
 //Prerequisite DEPENDANCIES - install using pacman preferrably
+
+
 sudo pacman -S nodejs
   --//--       Yarn
-   -//--       Clang
-     -//--     python-pip
+  --//--       Clang
+  --//--     python-pip
 pip install pynvim
 
 # nvim
