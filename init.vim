@@ -28,18 +28,17 @@ Plug 'romgrk/barbar.nvim'
 Plug 'https://github.com/cloudhead/neovim-fuzzy'
 set encoding=UTF-8
 call plug#end()
+
 " Colorscheme
- if (strftime("%H") > 7 && strftime("%H") < 17)
-:colorscheme one
-:set background=light
-else
 :colorscheme onedark
-endif
+
 :syntax on
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+
 " cpp formatting
 let g:clang_format#auto_format=1 
 nmap <F8> :TagbarToggle<CR>
+
 " Use <C-l> for trigger snippet expand.
 imap <C-l> <Plug>(coc-snippets-expand)
 
