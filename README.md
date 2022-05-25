@@ -2,6 +2,7 @@
 
 
 sudo pacman -S nodejs
+
   --//--       Yarn
   
   --//--       Clang
@@ -9,6 +10,7 @@ sudo pacman -S nodejs
   --//--       python-pip
   
 pip install pynvim
+
 Also should be using a nerd font in your terminal of choice for the correct drawing of glyphs
 
 # nvim
