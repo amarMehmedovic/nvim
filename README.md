@@ -1,37 +1,46 @@
-//Prerequisite DEPENDANCIES - install using pacman preferrably
+# Neovim configuration for C++
 
+## For my FET homies
 
-sudo pacman -S nodejs
+Konfiguracija napravljena uglavnom iz razloga da ne morate spaliti svoje rožnjače svaki put kada otvorite Amerov docker kontejner ;)
 
-  --//--       Yarn
+![281107595_547850583540043_6880944970666421911_n](https://user-images.githubusercontent.com/104562710/170366724-51915ac6-a859-4743-acba-a9745b765db7.png)
+
+## Prerequisite dependancies
   
-  --//--       Clang
-  
-  --//--       python-pip
-  
+```
+sudo pacman -S nodejs yarn clang python-pip
+```
+```
 pip install pynvim
+```
 
-Also should be using a nerd font in your terminal of choice for the correct drawing of glyphs
+You should also should be using a nerd font in your terminal of choice for the correct drawing of glyphs.
 
-# nvim
-Neovim Configuration for c++
+## Install guide
 
---Installation guide--
-
-1.Open terminal and install the latest neovim version 
+- Open terminal and install the latest neovim version 
 sudo pacman -S neovim
 
-2. Go to ~/.config and create a dir called nvim
+- Go to ~/.config and create a dir called nvim
 
-3.In the nvim dir create a init.vim file and copy everything from the init.vim file from my repo.
+- In the nvim dir create a init.vim file and copy everything from the init.vim file from my repo.
 
-4.In the terminal type
+- In the terminal type
+```
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
        
-5.Go back to the init.vim while and while in Command mode type :PlugInstall
+- Open the init.vim file with nvim and while in Command mode type :PlugInstall
 
-6.Go to ~/.local/share/nvim/plugged/coc.nvim and in that dir type "yarn install"
+- Navigate to the directory ~/.local/share/nvim/plugged/coc.nvim and in that directory type
+ ```
+ yarn install
+ ```
 
-7. In the nvim.init file in COmmand mode type 
-CocInstall coc-clangd then CocInstall coc-snippets
+- Go back to the directory with the init.vim file, open it with nvim and while in command mode type 
+```
+CocInstall coc-clangd coc-snippets
+
+```
