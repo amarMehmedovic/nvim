@@ -26,6 +26,7 @@ sudo pacman -S neovim
 4.In the terminal type
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+       
 5.Go back to the init.vim while and while in Command mode type :PlugInstall
 
 6.Go to ~/.local/share/nvim/plugged/coc.nvim and in that dir type "yarn install"
