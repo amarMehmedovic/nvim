@@ -1,14 +1,9 @@
 # Neovim configuration for C++
 
-## For my FET homies
+Konfiguracija napravljena uglavnom iz razloga da ne morate spaliti svoje rožnjače svaki put kada otvorite od profesora Amera docker kontejner ;)
 
-Konfiguracija napravljena uglavnom iz razloga da ne morate spaliti svoje rožnjače svaki put kada otvorite Amerov docker kontejner ;)
-
-![281107595_547850583540043_6880944970666421911_n](https://user-images.githubusercontent.com/104562710/170366724-51915ac6-a859-4743-acba-a9745b765db7.png)
 
 ## Prerequisite dependancies
-
-If you ain't using Arch BTW, then the fuck are you doing here, go to the arch wiki and install it
 
 https://wiki.archlinux.org/title/installation_guide
 
